@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
-import LoginPage from "./LoginPage";
+import LoginPage from "./components/LoginPage";
 import SignupPage from "./components/SignupPage";
 
 function App() {
