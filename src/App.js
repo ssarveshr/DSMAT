@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
-import LoginPage from "./components/LoginPage";
+import LoginPage from "./LoginPage";
 import SignupPage from "./components/SignupPage";
 
 function App() {
@@ -17,9 +17,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          <h1 className='h2'>Askive</h1>
+          <h1 className="h2">Askive</h1> {/* Changed to "h2" class for styling */}
           <button className="Get-Started" role="button" onClick={handleLoginPageNavigation}>
-          Get Started
+            Get Started
           </button>
         </p>
       </header>
